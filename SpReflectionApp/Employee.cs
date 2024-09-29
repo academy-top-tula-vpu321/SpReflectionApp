@@ -6,6 +6,18 @@ using System.Threading.Tasks;
 
 namespace SpReflectionApp
 {
+
+    public class EmployeeAgeValidateAttribute : Attribute
+    {
+        public int Age { get; }
+        public EmployeeAgeValidateAttribute() { }
+        public EmployeeAgeValidateAttribute(int age)
+        {
+            Age = age;
+        }
+    }
+
+    [EmployeeAgeValidate(16)]
     public class Employee : IStuddable, IWorkable
     {
         string? name;
@@ -52,4 +64,6 @@ namespace SpReflectionApp
     {
         void Work();
     }
+
+
 }
