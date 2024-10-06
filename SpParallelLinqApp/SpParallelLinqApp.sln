@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpParallelLinqApp", "SpParallelLinqApp\SpParallelLinqApp.csproj", "{A58AB6A1-147B-419D-A0FA-04FE8DEFCEE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A58AB6A1-147B-419D-A0FA-04FE8DEFCEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58AB6A1-147B-419D-A0FA-04FE8DEFCEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58AB6A1-147B-419D-A0FA-04FE8DEFCEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58AB6A1-147B-419D-A0FA-04FE8DEFCEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F21AAFA9-0ACA-4D01-94E6-5A23E04DE844}
+	EndGlobalSection
+EndGlobal
